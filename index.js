@@ -4,5 +4,5 @@ function getFirstSelector(selector){
 
 function nestedTarget(){
   var element = document.querySelector('#nested div div div div.target');
-  
+  element.parentNode.removeChild(element);
 }
