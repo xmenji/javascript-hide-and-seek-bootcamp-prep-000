@@ -7,3 +7,6 @@ function nestedTarget(){
   element.parentNode.removeChild(element);
 }
 
+function increaseRankBy(n){
+  
+}
